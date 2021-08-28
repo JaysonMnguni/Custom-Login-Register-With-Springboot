@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    font-family: Comfortaa;
+}
+
+/* Main Body Styling */
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background-color: #dfdfdf;
+}
+
+/* <!-- Main Page Header --> */
+header{
+    background-color: rgb(12, 17, 20);
+    padding: 7px 0px;
+}
+
+/* <!-- Main Navigation --> */
+.main-nav{
+    /* border: 1px solid white; */
+    margin: 0px;
+}
+
+.main-nav li{
+    color: #8d8d8d;
+    display: inline-block;
+    margin-right: 7px;
+    font-size: 14px;
+}
+
+/* <!-- Inline Form --> */
+#search-form{
+    width: auto;
+    /* border: 1px solid red; */
+}
+
+.username-display{
+    color: gray;
+}
+
+/* <!-- Login Identifier --> */
+.login-identifier{
+    font-size: 12px;
+    margin: 0px 7px;
+}

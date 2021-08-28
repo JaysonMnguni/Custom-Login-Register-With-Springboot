@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    font-family: Comfortaa;
+}
+
+
+/* main body styling*/
+
+body{
+    height: 100vh;
+    margin: 0px;
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center center;
+    display: flex;
+    align-items: center;
+}
+
+
+/* <!-- Fake Navigation --> */
+.fake-nav{
+    position: fixed;
+    top: 25px;
+    margin-left: 250px;
+    /* border: 1px solid green; */
+}
+
+.fake-nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+/* <!-- Login Button --> */
+#login-btn{
+    position: fixed;
+    top:25px;
+    right: 65px;
+    background-color: #82AB02;
+    border: 0.5px solid #3B4D00;
+    color: white;
+}
+
+/*  <!-- Fake Text Wrapper --> */
+.fake-text-wrapper{
+    margin-left: 250px;
+    width: 750px;
+}
+
+.fake-text-wrapper h3{
+    color: #808080;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.fake-text-wrapper h1{
+    color: #00162E;
+    font-weight: 600;
+    font-size: 60px;
+
+}
+
+.fake-text-wrapper p{
+    color: #8D8D8D;
+}
+
+/* <!-- Fake Button--> */
+.fake-description-btn{
+    background-color: #82AB02;
+    border: 0.5px solid #3B4D00;
+    color: white;
+}
+
+#login-card{
+    margin-left: 250px;
+}
+
+.submit-btn{
+    background-color: #82AB02;
+    border: 0.5px solid #3B4D00;
+    color: white;
+}
+
+#login-form-footer h5{
+    font-size:16px;
+}
+
+
+#login-form-footer p{
+    font-size:12px;
+}
